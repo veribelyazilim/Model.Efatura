@@ -1,0 +1,83 @@
+{
+  "template": "app",
+  "imports": {
+    "Volo.Abp.BasicTheme": {
+      "version": "10.1.0",
+      "isInstalled": true,
+      "creationTime": "03/11/2026 13:59:37 +00:00"
+    },
+    "Volo.Abp.Account": {
+      "version": "10.1.0",
+      "isInstalled": true,
+      "creationTime": "03/11/2026 13:59:37 +00:00"
+    },
+    "Volo.Abp.OpenIddict": {
+      "version": "10.1.0",
+      "isInstalled": true,
+      "creationTime": "03/11/2026 13:59:37 +00:00"
+    },
+    "Volo.Abp.Identity": {
+      "version": "10.1.0",
+      "isInstalled": true,
+      "creationTime": "03/11/2026 13:59:37 +00:00"
+    },
+    "Volo.Abp.SettingManagement": {
+      "version": "10.1.0",
+      "isInstalled": true,
+      "creationTime": "03/11/2026 13:59:37 +00:00"
+    },
+    "Volo.Abp.PermissionManagement": {
+      "version": "10.1.0",
+      "isInstalled": true,
+      "creationTime": "03/11/2026 13:59:37 +00:00"
+    },
+    "Volo.Abp.FeatureManagement": {
+      "version": "10.1.0",
+      "isInstalled": true,
+      "creationTime": "03/11/2026 13:59:37 +00:00"
+    }
+  },
+  "folders": {
+    "items": {
+      "src": {}
+    }
+  },
+  "packages": {
+    "Model.Efatura.Application": {
+      "path": "src/Model.Efatura.Application/Model.Efatura.Application.abppkg",
+      "folder": "src"
+    },
+    "Model.Efatura.Domain.Shared": {
+      "path": "src/Model.Efatura.Domain.Shared/Model.Efatura.Domain.Shared.abppkg",
+      "folder": "src"
+    },
+    "Model.Efatura.Application.Contracts": {
+      "path": "src/Model.Efatura.Application.Contracts/Model.Efatura.Application.Contracts.abppkg",
+      "folder": "src"
+    },
+    "Model.Efatura.HttpApi": {
+      "path": "src/Model.Efatura.HttpApi/Model.Efatura.HttpApi.abppkg",
+      "folder": "src"
+    },
+    "Model.Efatura.HttpApi.Client": {
+      "path": "src/Model.Efatura.HttpApi.Client/Model.Efatura.HttpApi.Client.abppkg",
+      "folder": "src"
+    },
+    "Model.Efatura.EntityFrameworkCore": {
+      "path": "src/Model.Efatura.EntityFrameworkCore/Model.Efatura.EntityFrameworkCore.abppkg",
+      "folder": "src"
+    },
+    "Model.Efatura.DbMigrator": {
+      "path": "src/Model.Efatura.DbMigrator/Model.Efatura.DbMigrator.abppkg",
+      "folder": "src"
+    },
+    "Model.Efatura.HttpApi.Host": {
+      "path": "src/Model.Efatura.HttpApi.Host/Model.Efatura.HttpApi.Host.abppkg",
+      "folder": "src"
+    },
+    "Model.Efatura.Domain": {
+      "path": "src/Model.Efatura.Domain/Model.Efatura.Domain.abppkg",
+      "folder": "src"
+    }
+  }
+}
