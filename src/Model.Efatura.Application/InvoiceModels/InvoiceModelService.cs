@@ -190,7 +190,14 @@ namespace Model.Efatura.InvoiceModels
                                 tax.Tax_Amnt = 0;
                                 tax.Tax_Perc = 0;
 
-                                currentModel.invoiceheader.InvoiceTypeCode = "ISTISNA";
+                                //currentModel.invoiceheader.InvoiceTypeCode = "ISTISNA";
+                                // Yalnızca SATIS -> ISTISNA. IADE, TEVKIFAT, IHRACKAYITLI vb. kendi tipinde kalır;
+                                // istisna kodu satır vergisinde (Tax_Exem / Tax_Exem_Code) taşınır.
+                                if (string.Equals(currentModel.invoiceheader.InvoiceTypeCode?.Trim(), "SATIS",
+                                                  StringComparison.OrdinalIgnoreCase))
+                                {
+                                    currentModel.invoiceheader.InvoiceTypeCode = "ISTISNA";
+                                }
                             }
                         }
                         //else

@@ -133,10 +133,10 @@ public class EfaturaHttpApiHostModule : AbpModule
             options.CheckLibs = false;
         });
 
-        //Configure<AbpAntiForgeryOptions>(options =>
-        //{
-        //    options.AutoValidate = false;
-        //});
+        Configure<AbpAntiForgeryOptions>(options =>
+        {
+            options.AutoValidate = false;
+        });
     }
 
     private void ConfigureStudio(IHostEnvironment hostingEnvironment)
